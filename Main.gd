@@ -1,6 +1,6 @@
 extends Node2D
 
-var Room = preload("res://Room.tscn")
+var Room = preload("res://scenes/Room/Room.tscn")
 var Player = preload("res://Character.tscn")
 var font = preload("res://assets/RobotoBold120.tres")
 onready var Map = $TileMap
